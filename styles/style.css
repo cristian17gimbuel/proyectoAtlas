@@ -1,0 +1,212 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    }
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    /* Inicio de header */
+    header{
+        align-content: center;
+        padding: 80px 160px;
+        width: 100%;
+        background: url(../assets/images/banner-bk.jpg);
+        background-size: cover;
+    }
+    .hed{
+        align-items: center;
+        display: flex;
+    }
+    .qw{
+        width: 80%;
+    }
+    .qw img{
+        width: 8%;
+    }
+    .hdf{
+        color: #ffffff;
+    }
+    nav a{
+        text-decoration: none;
+    }
+    .hid h1{
+        color: #ffffff;
+        font-size: 80px;
+        margin-bottom: 35px;
+    }
+    .hid p{
+        color: #ffffff;
+        margin-bottom: 35px;
+    }
+    .bot button{
+        margin-bottom: 20px;
+        background-color: #00ffad;
+        color: #192440;
+        font-weight: 800;
+        padding: 10px 20px;
+        border-radius: 20px;
+        border: none;
+    }
+    /* Fin header */
+
+    /* Inicio primero  */
+    .primero{
+        text-align: center;
+    }
+    .op h2{
+        padding: 80px 0 15px 0;
+        text-align: center;
+        font-size: 50px;
+    }
+    .io{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 250px;
+    }
+    .io h5{
+        text-align: center;
+    }
+    .io p{
+        text-align: center;
+    }
+    
+    .take{
+        background: linear-gradient(170deg,#ffffff 50%,#00ffad 50%);
+        font-size: 20px;
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        padding: 100px 200px;
+    }
+    .safe{
+        background-color: #00ffad;
+        font-size: 20px;
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        padding: 100px 200px;
+    }
+    .take img{
+        width: 100%;
+    }
+    
+    .uy {
+        width: 55%;
+        text-align: left;
+    }
+   
+    .uy h2 {
+        font-size: 50px;
+        margin-bottom: 15px;
+        color: #111111;
+    }
+    .uy p {
+        line-height: 30px;
+        margin-bottom: 25px;
+    }
+    .uy button {
+        background-color: #192440;
+        color: white;
+        padding: 12px 30px;
+        border: none;
+        border-radius: 30px;
+        font-size: 14px;
+    }
+    .uyi {
+        padding-left: 100px;
+        width: 55%;
+        text-align: left;
+    }
+   
+    .uyi h2 {
+        font-size: 50px;
+        margin-bottom: 25px;
+        color: #111111;
+    }
+    .uyi p {
+        line-height: 22px;
+        margin-bottom: 25px;
+    }
+    .uyi button {
+        background-color: #192440;
+        color: white;
+        padding: 12px 30px;
+        border: none;
+        border-radius: 30px;
+        font-size: 14px;
+    }
+
+    /* fin de primero */
+
+    /* inicio de segundo */
+    .plan{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    .che h2{
+        text-align: center;
+    }
+    /* fin de segundo */
+    /* inicio de tercero */
+    .images{
+        justify-content: center;
+        background-color: #eceeef;
+        display: flex;
+    }
+    /* fin de tercero */
+    /* inicio de cuarto */
+    .contacto {
+        background: url("../assets/images/contact-bk.jpg") no-repeat center center/cover;
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 60px;
+    }
+
+    .contact-info {
+        width: 50%;
+        color: #ffffff;
+    }
+
+    .contact-info h2 {
+        color: #ffffff;
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+    .form {
+      max-width: 50%;
+      width: 100%;
+    }
+    /* fin de cuarto */
+    /* inicio de footer */
+    .footer {
+        background-color: #17203e;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 40px;
+        font-size: 14px;
+    }
+    .social-icons {
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .social-icons a {
+        display: flex;
+        background-color: white;
+        color: #17203e;
+        font-size: 20px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+    }
+    /* fin de footer */
